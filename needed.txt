@@ -1,0 +1,6 @@
+// Add a GitHub Repo secret: 
+  key: COSIGN_PRIVATE_KEY_PASSWORD
+  value: <one used to generate the key-pair>
+// Add a GitHub Repo secret:
+  key: COSIGN_PRIVATE_KEY
+  value: <the cosign.key>
