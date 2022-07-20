@@ -74,4 +74,3 @@ jobs:
           COSIGN_REPOSITORY: "ghcr.io/shubhampalriwala/trivy-db-signatures"
         run: |
           echo -n "${{ secrets.COSIGN_PRIVATE_KEY_PASSWORD }}" | cosign sign --key <(echo -n "${{ secrets.COSIGN_PRIVATE_KEY }}") ghcr.io/shubhampalriwala/trivy-db:latest
-
